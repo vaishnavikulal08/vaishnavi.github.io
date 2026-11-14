@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+header {
+  background: #243b64;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+
+nav {
+  background: #172b4d;
+  padding: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 20px;
+  max-width: 950px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #243b64;
+  margin-bottom: 20px;
+}
+
+.home {
+  background: #dce9ff;
+  max-width: none;
+  padding: 85px 20px;
+}
+
+.home h2 {
+  font-size: 34px;
+}
+
+.profile {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #b9c9e5;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000012;
+  line-height: 2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.photo {
+  background: #dce9ff;
+  padding: 45px 10px;
+  border-radius: 12px;
+  color: #243b64;
+}
+
+button {
+  background: #243b64;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: #172b4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: #315da8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Personal Website</h1>
+  <p>Welcome to my little world!</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Me</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="home" id="home">
+  <img class="profile"
+       src="https://placehold.co/140x140?text=My+Photo"
+       alt="My Profile Photo">
+  <h2>Hello! I'm Your Name</h2>
+  <p>Welcome to my personal website.
+     Explore my interests, achievements and activities!</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p><b>Name:</b> Your Name</p>
+    <p><b>Date of Birth:</b> DD/MM/YYYY</p>
+    <p><b>Education:</b> Your College / School</p>
+    <p><b>Course:</b> Your Course</p>
+    <p><b>Location:</b> Your City</p>
+    <p><b>Hobbies:</b> Reading, Music, Travelling</p>
+    <p><b>Skills:</b> Communication, HTML, Creativity</p>
+  </div>
+
+  <h2>My Social Activities</h2>
+  <div class="card">
+    <p>Participating in college events and cultural programs.</p>
+    <p>Taking part in sports and extracurricular activities.</p>
+    <p>Volunteering in community service programs.</p>
+    <p>Working with friends on group projects.</p>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>My Gallery</h2>
+  <div class="gallery">
+    <div class="photo">📸 My Memories</div>
+    <div class="photo">🎓 College Events</div>
+    <div class="photo">🌍 Social Activities</div>
+    <div class="photo">🎉 Celebrations</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="card">
+    <p>Email: yourname@example.com</p>
+    <p>Instagram: @yourusername</p>
+    <p>LinkedIn: Your Profile Link</p>
+    <br>
+    <a href="mailto:yourname@example.com">
+      <button>Send Me an Email</button>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 My Personal Website | Designed by Your Name</p>
+</footer>
+
+</body>
+</html>
